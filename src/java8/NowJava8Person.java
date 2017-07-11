@@ -6,8 +6,7 @@ import java.util.List;
 public class NowJava8Person {
 	public static void main(String[] args) {
 
-		String NotFound = "Person data is not available";
-		List<Person> persons = Arrays.asList(new Person("devang", 26), new Person("manan", 24),
+			List<Person> persons = Arrays.asList(new Person("devang", 26), new Person("manan", 24),
 				new Person("dishant", 22));
 
 		Person result1 = persons.stream() // Convert to steam
